@@ -4,10 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="assets/scripts.js"></script>
   <title>Calculator</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Calculator</h1>
+    <form id="add">
+      <h2>
+        Addition
+      </h2>
+      <div class="form-group">
+        <label for="add1">First Number:</label>
+        <input type="text" id="add1" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="add2">Second Number:</label>
+        <input type="text" id="add2" class="form-control">
+      </div>
+      <button type="submit" class="btn">Add Them!</button>
+    </form>
+    <div id="outputAdd">
 
+    </div>
+    <form id="subtract">
+      <h2>Subtraction</h2>
+      <div class="form-group">
+        <label for="minus1">First Number:</label>
+        <input type="text" id="minus1" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="minus2">Second Number:</label>
+        <input type="text" id="minus2" class="form-control">
+      </div>
+      <button type="submit"class="btn">subtract Them!</button>
+    </form>
+    <div id="outputSubtract">
+
+    </div>
+    <form id="multiply">
+      <h2>Multiply</h2>
+      <div class="form-group">
+        <label for="multiply1">First Number:</label>
+        <input type="text" id="multiply1" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="multiply2">Second Number:</label>
+        <input type="text" id="multiply2" class="form-control">
+      </div>
+        <button type="submit"class="btn">Multiply Them!</button>
+    </form>
+    <div id="outputMultiply">
+
+    </div>
+    <form id="divide">
+      <h2>Divide</h2>
+      <div class="form-group">
+        <label for="divide1">First Number:</label>
+        <input type="text" id="divide1" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="divide2">Second Number:</label>
+        <input type="text" id="divide2" class="form-control">
+      </div>
+      <button type="submit"class="btn">Divide Them!</button>
+    </form>
+    <div id="outputDivide">
+
+    </div>
+  </div>
 </body>
 </html>
